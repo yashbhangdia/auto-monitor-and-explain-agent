@@ -57,13 +57,10 @@ LLM → Explanation Output
 
 ## ⚙️ Setup Instructions
 
-``` bash
-git clone https://github.com/your-repo/market-agent.git
-cd market-agent
-pip install -r requirements.txt
-export ALPHAVANTAGE_API_KEY="your_api_key"
-python runner.py
-```
+1. Clone the repository.
+2. Get the ipynb notebook file and upload to kaggle notebooks.
+3. Add two secrets under "Add-ons" tab. [GOOGLE_API_KEY, AV_API_KEY]
+4. Run the cells of the notebook.
 
 ------------------------------------------------------------------------
 
